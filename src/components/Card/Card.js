@@ -51,7 +51,7 @@ function Card({ pokemon }) {
 
   <div className="Card__data Card__data--ability">
                     <p className="title">Stats</p>
-                    <p>{pokemon.stats[0].base_stats}</p>
+                    <p>{pokemon.stats[0].base_stat}</p>
                 </div>
 
             </div>
