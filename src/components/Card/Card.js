@@ -49,6 +49,11 @@ function Card({ pokemon }) {
                     <p>{pokemon.moves[0].move.name}</p>
                 </div>
 
+  <div className="Card__data Card__data--ability">
+                    <p className="title">Stats</p>
+                    <p>{pokemon.stats[0].base_stats}</p>
+                </div>
+
             </div>
         </div>
     );
