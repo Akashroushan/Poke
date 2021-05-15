@@ -31,6 +31,12 @@ function Card({ pokemon }) {
                     <p className="title">Height</p>
                     <p>{pokemon.height}</p>
                 </div>
+
+ <div className="Card__data Card__data--weight">
+                    <p className="title">XP</p>
+                    <p>{pokemon.base_experience}</p>
+                </div>
+
                 <div className="Card__data Card__data--ability">
                     <p className="title">Powers</p>
                     <p>{pokemon.abilities[0].ability.name}</p>
