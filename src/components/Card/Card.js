@@ -23,11 +23,6 @@ function Card({ pokemon }) {
                 }
             </div>
 
- <div className="Card__info">
-                <div className="Card__data Card__data--weight">
-                    <p className="title">Attack</p>
-                    <p>{pokemon.moves[0].move.name}</p>
-                </div>
 
 
             <div className="Card__info">
@@ -49,6 +44,12 @@ function Card({ pokemon }) {
                     <p className="title">Powers</p>
                     <p>{pokemon.abilities[0].ability.name}</p>
                 </div>
+ <div className="Card__info">
+                <div className="Card__data Card__data--ability">
+                    <p className="title">Attack</p>
+                    <p>{pokemon.moves[0].move.name}</p>
+                </div>
+
             </div>
         </div>
     );
